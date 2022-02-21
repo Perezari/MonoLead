@@ -13,8 +13,8 @@
 $(function () {
 
   var pstyle = 'border: 1px solid #dfdfdf; padding: 5px;';
-  var frontstyle = 'background:  url("<?php echo STATIC_DIR; ?>/images/bgone.jpg") white; background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;';
-
+  var frontstyle = 'background:  url("<?php echo STATIC_DIR; ?>/images/bgone.png") white;';
+		
   $('#layout').w2layout({
     name: 'layout',
     panels: [
