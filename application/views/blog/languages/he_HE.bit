@@ -1,0 +1,297 @@
+<?php
+
+$_LANG_CONFIG['DATA'] = array(
+	'native'=>'Hebrew - עברית',
+	'english'=>'עברית',
+	'last_update'=>'20/02/2013',
+	'author'=>'Diego Najar',
+	'email'=>'dignajar@gmail.com',
+	'url'=>'http://diego.nibbleblog.com'
+);
+
+$_LANG['LAST_COMMENTS'] = 'תגובות אחרונות';
+$_LANG['THEME'] = 'ערכת נושא';
+$_LANG['THEMES'] = 'ערכות נושא';
+$_LANG['CHANGE_THEME'] = 'החלף ערכת נושא';
+$_LANG['SELECT_THEME'] = 'בחר ערכת נושא';
+$_LANG['REMEMBER_ME'] = 'זכור אותי';
+$_LANG['USERNAME'] = 'שם משתמש';
+$_LANG['PASSWORD'] = 'סיסמא';
+$_LANG['COMMENTS'] = 'Comments';
+$_LANG['INVALID_CAPTCHA'] = 'קוד אימות לא חוקי';
+$_LANG['NAME'] = 'שם';
+$_LANG['EMAIL'] = 'אימייל';
+$_LANG['TYPE_THE_COMMENT_HERE'] = 'הזן את התגובה שלך כאן';
+$_LANG['COPY_THE_TEXT_ON_THE_RIGHT'] = 'העתק את הטקסט מימין';
+$_LANG['NEWER_POSTS'] = 'פוסטים חדשים';
+$_LANG['OLDER_POSTS'] = 'פוסטים ישנים';
+$_LANG['FORGOT_PASSWORD'] = 'שחכתי את הסיסמא';
+$_LANG['INCORRECT_USERNAME_OR_PASSWORD'] = 'שם משתמש או סיסמא שגוי';
+$_LANG['LOGIN'] = 'התחבר';
+$_LANG['NEW_CATEGORY'] = 'קטגוריה חדשה';
+$_LANG['ENTER_THE_NAME_OF_THE_NEW_CATEGORY'] = 'הזן את השם של הקטגוריה החדשה';
+$_LANG['ADD_CATEGORY'] = 'הוסף קטגוריה';
+$_LANG['CATEGORIES_IN_YOUR_BLOG'] = 'קטגוריות בבלוג שלך';
+$_LANG['DELETE'] = 'מחיקה';
+$_LANG['ENTER_TITLE_HERE'] = 'הזן כותרת כאן';
+$_LANG['SELECT_A_CATEGORY'] = 'בחר קטגוריה';
+$_LANG['ALLOW_COMMENTS'] = 'הרשה למשתמשים להגיב';
+$_LANG['ALLOW_YOUR_USERS_TO_COMMENT_YOUR_PUBLICATIONS'] = 'הרשה למשתמשים שלך להגיב על הפוסטים שאתה מפרסם';
+$_LANG['STICKY_POST'] = 'נעץ את הפוסט';
+$_LANG['SELECT_THIS_OPTION_IF_YOU_WANT_TO_HIGHLIGHT_YOUR_PUBLICATION'] = 'בחר באפשרות זו אם ברצונך להדגיש את הפרסום שלך';
+$_LANG['PUBLISH'] = 'פרסם';
+$_LANG['GET_VIDEO_INFORMATION'] = 'קבל מידע אודות וידאו';
+$_LANG['VIDEO_URL'] = 'לינק לוידאו';
+$_LANG['LOADING'] = 'טוען';
+$_LANG['VIDEO_INFORMATION'] = 'מידע אודות וידאו';
+$_LANG['ENTER_QUOTE_HERE'] = 'הזן משפט כאן';
+$_LANG['TIMEZONE'] = 'איזור זמן';
+$_LANG['BLOG_ADDRESS'] = 'לבלוג URL כתובת';
+$_LANG['BLOG_BASE_PATH'] = 'נתיב בסיס לבלוג';
+$_LANG['POSTS_PER_PAGE'] = 'כמות פוסטים בדף';
+$_LANG['RSS_ITEMS'] = 'RSS פריטי';
+$_LANG['ADVANCED_OPTIONS_FOR_POST'] = 'הגדרות מתקדמות עבור פוסט';
+$_LANG['BLOG_TITLE'] = 'כותרת הבלוג';
+$_LANG['BLOG_SLOGAN'] = 'הסלוגן של הבלוג';
+$_LANG['ABOUT_YOUR_BLOG'] = 'אודות הבלוג שלך';
+$_LANG['FOOTER_TEXT'] = 'כותרת תחתית';
+$_LANG['LANGUAGE'] = 'שפה';
+$_LANG['CURRENT_PASSWORD'] = 'סיסמא נוכחית';
+$_LANG['NEW_PASSWORD'] = 'סיסמא חדשה';
+$_LANG['SAVE_CHANGES'] = 'שמור שינויים';
+$_LANG['CHANGE_USERNAME'] = 'החלף שם משתמש';
+$_LANG['CHANGE_PASSWORD'] = 'החלף סיסמא';
+$_LANG['CHANGES_HAS_BEEN_SAVED_SUCCESSFULLY'] = 'השינויים נשמרו בהצלחה';
+$_LANG['USERNAME_HAS_BEEN_CHANGED_SUCCESSFULLY'] = 'שם משתמש הוחלף בהצלחה';
+$_LANG['PASSWORD_HAS_BEEN_CHANGED_SUCCESSFULLY'] = 'סיסמא הוחלפה בהצלחה';
+$_LANG['CURRENT_PASSWORD_INCORRECT'] = 'סיסמא נוכחית שגויה';
+$_LANG['INSTALL'] = 'התקנה';
+$_LANG['UNINSTALL'] = 'הסרה';
+$_LANG['CONFIGURE'] = 'הגדרות';
+$_LANG['CREATED_BY'] = 'נוצר על ידי';
+$_LANG['CATEGORY_HAS_ONE_OR_MORE_POST'] = 'הקטגוריה כוללת פוסט אחד יותר. לא ניתן למחוק אותה עד שהיא ריקה';
+$_LANG['AT_LEAST_ONE_CATEGORY'] = 'לא ניתן למחוק קטגוריה זו מכיוון שאתה זקוק לקטגוריה אחת לפחות.';
+$_LANG['ARE_YOU_SURE'] = '?האם אתה בטוח';
+$_LANG['VIEW'] = 'הצגה';
+$_LANG['EDIT'] = 'עריכה';
+$_LANG['TIMESTAMP_FORMAT'] = 'תבנית חותמת זמן';
+$_LANG['SELECT_A_TIMEZONE_FOR_A_CORRECT_DATE_VISUALIZATION'] = 'בחר אזור זמן להדמיה מדויקת של תאריך';
+$_LANG['ABSOLUT_URL_ADDRESS_OF_YOUR_BLOG'] = 'כתובת אתר מוחלטת של הבלוג שלך';
+$_LANG['ABSOLUT_ADDRESS_THAT_CONTAINS_THE_BLOGS_FILE_SYSTEM'] = 'כתובת מוחלטת המכילה את מערכת הקבצים של הבלוג';
+$_LANG['AMOUNT_OF_POSTS_THAT_YOU_WISH_TO_SEE_PER_PAGE'] = 'כמות הפוסטים שאתה רוצה לראות בכל דף';
+$_LANG['AMOUNT_OF_POSTS_THAT_YOU_WISH_TO_SEE_ON_RSS'] = 'RSS-כמות הפוסטים שאתה רוצה לראות ב';
+$_LANG['ADVANCED_OPTIONS_WHEN_PUBLISHING_CONTENT'] = 'אפשרויות מתקדמות בעת פרסום תוכן';
+$_LANG['ADMINISTRATORS_USERNAME'] = 'שם המשתמש של מנהל המערכת';
+$_LANG['DO_NOT_FORGET_THIS_PASSWORD'] = 'אל תשכח את הסיסמא הזו';
+$_LANG['NEW_SESSION_STARTED'] = 'New session started';
+$_LANG['DATE'] = 'תאריך';
+$_LANG['LAST_SESSIONS'] = 'הפעלות אחרונות';
+$_LANG['DASHBOARD'] = 'מרכז השליטה';
+$_LANG['VIEW_BLOG'] = 'הצג בלוג';
+$_LANG['LOGOUT'] = 'התנתק';
+$_LANG['POSTS'] = 'פוסטים';
+$_LANG['SIMPLE'] = 'פשוט';
+$_LANG['VIDEO'] = 'וידאו';
+$_LANG['QUOTE'] = 'ציטוטים';
+$_LANG['POSTING_WITH_RICH_FORMATTING'] = 'פרסם פוסט עם עיצוב עשיר';
+$_LANG['AN_EASY_WAY_TO_PUBLISH_VIDEOS'] = 'דרך פשוטה לפרסם סרטונים';
+$_LANG['AN_EASY_WAY_TO_PUBLISH_QUOTES'] = 'דרך פשוטה לפרסם משפטים';
+$_LANG['NEW_SIMPLE_POST'] = 'פוסט פשוט חדש';
+$_LANG['NEW_VIDEO_POST'] = 'פוסט חדש של וידאו';
+$_LANG['NEW_QUOTE_POST'] = 'ציטוט חדש';
+$_LANG['MANAGE_POSTS'] = 'נהל פוסטים';
+$_LANG['SETTINGS'] = 'הגדרות';
+$_LANG['GENERAL_SETTINGS'] = 'הגדרות כלליות';
+$_LANG['ADVANCED_SETTINGS'] = 'הגדרות מתקדמות';
+$_LANG['MANAGE_CATEGORIES'] = 'נהל קטגוריות';
+$_LANG['USERNAME_AND_PASSWORD'] = 'שם משתמש & סיסמא';
+$_LANG['MANAGE_PLUGINS'] = 'נהל תוספים';
+$_LANG['PLUGINS'] = 'תוספים';
+$_LANG['EDIT_POST'] = 'עריכת פוסט';
+$_LANG['SIGN_IN_TO_NIBBLEBLOG_ADMIN_AREA'] = 'Elementech היכנס אל אזור הניהול של';
+$_LANG['POST_HAS_BEEN_PUBLISHED_SUCCESSFULLY'] = 'הפוסט פורסם בהצלחה';
+$_LANG['PLEASE_ENABLE_JAVASCRIPT_IN_YOUR_BROWSER'] = 'בדפדפן שלך JavaScript הפעל בבקשה';
+$_LANG['INSTALLATION_COMPLETE'] = 'ההתקנה הושלמה';
+$_LANG['DEPENDENCIES'] = 'קבצים תלויים';
+$_LANG['PHP_VERSION'] = 'PHP גרסת';
+$_LANG['PASS'] = 'עבר';
+$_LANG['FAIL'] = 'נכשל';
+$_LANG['PHP_MODULE'] = 'PHP מודול';
+$_LANG['CONFIGURATION'] = 'תצורה';
+$_LANG['EXPERT_MODE'] = 'מצב מומחה';
+$_LANG['ADMINISTRATOR_USERNAME'] = 'שם משתמש של מנהל המערכת';
+$_LANG['ADMINISTRATOR_PASSWORD'] = 'סיסמא של מנהל המערכת';
+$_LANG['ADMINISTRATOR_EMAIL'] = 'אימייל של מנהל המערכת';
+$_LANG['WELCOME_TO_NIBBLEBLOG'] = 'Elementech ברוך הבא לבלוג של';
+$_LANG['CHOOSE_YOUR_LANGUAGE'] = 'בחר את השפה שלך';
+$_LANG['WRITING_TEST_ON_CONTENT_DIRECTORY'] = 'כתיבת מבחן בספריית תוכן';
+$_LANG['INSTALLATION_LINE1'] = '!מזל טוב';
+$_LANG['INSTALLATION_LINE2'] = '.התקנת הבלוג שלך הושלמה';
+$_LANG['INSTALLATION_LINE3'] = 'כדי לנהל את הבלוג שלך, עבור לכתובת הבאה';
+$_LANG['INSTALLATION_LINE4'] = 'או בקר בבלוג החדש שלך';
+$_LANG['INSTALLATION_LINE5'] = 'אם אתה צריך תמיכה בקר בפורום';
+$_LANG['WELCOME_POST_TITLE'] = 'Elementech ברוך הבא לבלוג של';
+$_LANG['WELCOME_POST_LINE1'] = '.מזל טוב, יש לך את הבלוג שלך מותקן ועובד';
+$_LANG['WELCOME_POST_LINE2'] = 'כדי לשנות הגדרות כלשהן, עליך להיכנס ללוח הבקרה של מנהל המערכת ';
+$_LANG['WELCOME_POST_LINE3'] = 'אם אתה זקוק לעזרה כלשהי, תוכל להיכנס לפורום התמיכה ';
+$_LANG['WELCOME_POST_LINE4'] = 'תן לנו לייק בפייסבוק';
+$_LANG['ENABLE_FRIENDLY_URLS'] = 'הפעל כתובות אתרים ידידותיות';
+$_LANG['COPY_THIS_CONTENT_ON_THE_FILE'] = 'העתק תוכן זה בקובץ ".htaccess". הקובץ חייב להיות בשורש הדומיין שלך. השרת חייב לטעון את המודולים ולהגדיר אותם כהלכה כדי להשתמש באפשרות זו.';
+$_LANG['INSERT_PICTURE'] = 'הוספת תמונה';
+$_LANG['PERMALINK'] = 'קישור קבוע';
+$_LANG['FRIENDLY_URLS'] = 'כתובות אתרים ידידותיות';
+$_LANG['UPLOADING'] = 'מעלה';
+$_LANG['READ_MORE'] = 'קרא עוד';
+$_LANG['AUTHOR'] = 'יוצר';
+$_LANG['THE_PLUGIN_IS_INSTALLED_CORRECTLY'] = '.התוסף הותקן כהלכה, אם ערכת הנושא תומכת בתוסף זה הוא יוצג';
+$_LANG['SHORT_DESCRIPTION_NO_MORE_THAN'] = 'תיאור קצר - לא יותר מ-150 תווים';
+$_LANG['NEW_COMMENT'] = 'תגובה חדשה';
+$_LANG['REGIONAL_SETTINGS'] = 'הגדרות איזוריות';
+$_LANG['LOCALE'] = 'מקומי';
+$_LANG['THIS_FIELD_IS_SET_EACH_TIME_YOU_CHANGE_THE_LANGUAGE_OF_THE_BLOG'] = 'שדה זה מוגדר בכל פעם שאתה משנה את שפת הבלוג. במידת הצורך אתה יכול לשנות את זה עם אחד מתאים יותר. שים לב שהאפשרויות שאתה מזין חייבות להיות נתמכות על ידי השרת שלך';
+$_LANG['UNCATEGORIZED'] = 'ללא קטגוריה';
+$_LANG['MUSIC'] = 'מוסיקה';
+$_LANG['VIDEOS'] = 'סרטונים';
+$_LANG['POWERED_BY_NIBBLEBLOG'] = 'Elementech מופעל על ידי';
+$_LANG['CUSTOM'] = 'מותאם אישית';
+$_LANG['SELECT_A_FORMAT_FOR_DISPLAYING_THE_DATES'] = '.בחר תבנית להצגת התאריכים או האפשרות המותאמת אישית, כך שתוכל ליצור בעצמך';
+$_LANG['ENABLE_WYSIWYG_EDITOR'] = 'WYSIWYG הפעל עורך';
+$_LANG['ENABLE_OR_DISABLE_THE_WYSIWYG_EDITOR'] = 'WYSIWYG הפעל או השבת את עורך';
+$_LANG['IMAGE_SETTINGS'] = 'הגדרות תמונה';
+$_LANG['AUTOMATIC_IMAGE_RESIZING'] = 'שינוי גודל תמונה אוטומטי';
+$_LANG['THUMBNAILS'] = 'תמונות ממוזערות';
+$_LANG['ENABLE_AUTOMATIC_IMAGE_RESIZING'] = 'אפשר שינוי גודל תמונה אוטומטי';
+$_LANG['ENABLE_THUMBNAILS'] = 'אפשר תמונות ממוזערות';
+$_LANG['WIDTH'] = 'רוחב';
+$_LANG['HEIGHT'] = 'גובה';
+$_LANG['OPTION'] = 'אפשרות';
+$_LANG['THIS_OPTION_AUTOMATICALLY_CHANGES_THE_IMAGE'] = 'אפשרות זו משנה אוטומטית את גודל התמונה לאחר העלאה';
+$_LANG['ENABLE_THIS_OPTION_IF_YOU_WANT_TO_GENERATE'] = 'הפעל אפשרות זו אם ברצונך ליצור תמונה ממוזערת בעת העלאת תמונה';
+$_LANG['THERE_ARE_NO_PUBLISHED_COMMENTS'] = 'אין תגובות שפורסמו';
+$_LANG['THERE_ARE_NO_DRAFT_POSTS'] = 'אין טיויות';
+$_LANG['AUTOMATIC'] = 'אוטומטי';
+$_LANG['EXACT'] = 'מדויק';
+$_LANG['PORTRAIT'] = 'דיוקן';
+$_LANG['LANDSCAPE'] = 'Landscape';
+$_LANG['CROP'] = 'חיתוך';
+$_LANG['YOU_CAN_USE_HTML_OR_MARKDOWN_SYNTAX'] = 'Markdown או HTML ניתן להשתמש בתחביר';
+$_LANG['DRAFT'] = 'טיוטה';
+$_LANG['YOU_HAVE_A_NEW_COMMENT'] = 'יש לך תגובה חדשה';
+$_LANG['LOGIN_FAILED_ATTEMPT'] = 'ניסיון התחברות נכשל';
+$_LANG['NOTIFICATIONS'] = 'עדכונים';
+$_LANG['PREVIEW'] = 'תצוגה מקדימה';
+$_LANG['PLEASE_COMPLETE_ALL_FIELDS'] = 'אנא מלא את כל השדות';
+$_LANG['THERE_ARE_NO_POSTS'] = 'אין פוסטים';
+$_LANG['BACK_TO_BLOG'] = 'חזור אל הבלוג';
+$_LANG['LOW_DETECTION_LEVEL'] = 'רמת זיהוי נמוכה';
+$_LANG['MEDIUM_DETECTION_LEVEL'] = 'רמת זיהוי בינונית';
+$_LANG['HIGH_DETECTION_LEVEL'] = 'רמת זיהוי גבוהה';
+$_LANG['SPAM_CONTROL'] = 'בקרת ספאם';
+$_LANG['DISAPPROVE'] = 'לא לאשר';
+$_LANG['APPROVE_SPAM_DETECTED'] = 'אישור (ספאם זוהה) ';
+$_LANG['APPROVE'] = 'לאשר';
+$_LANG['API_KEY'] = 'API מפתח';
+$_LANG['INSERT_THE_API_KEY_HERE'] = 'כאן API-הכנס את מפתח ה';
+$_LANG['SPAM_MONITOR'] = 'צג ספאם';
+$_LANG['ENABLE_THIS_FEATURE_TO_PROTECT_AGAINST_XSS'] = 'HTML על ידי חיטוי קוד XSS בין אתרים Scripting הפעל תכונה זו כדי להגן מפני התקפות';
+$_LANG['ENABLE_THIS_FEATURE_TO_MODERATE_COMMENTS'] = 'הפעל תכונה זו כדי למתן תגובות לפני הפרסום';
+$_LANG['ENABLE_THIS_FEATURE_TO_PROTECT_YOUR_COMMENTS'] = 'הפעל תכונה זו כדי להגן על הפוסטים שלך מפני דואר זבל';
+$_LANG['ENABLE_THIS_FEATURE_TO_DELETE_SPAM_AUTO'] = 'אפשר תכונה זו כדי למחוק ספאם באופן אוטומטי';
+$_LANG['COMMENTS_DETECTED_AS_SPAM_WILL_BE_FILTERED'] = 'תגובות שזוהו כספאם יסוננו';
+$_LANG['NOTIFY_WHEN_A_USER_MAKES_A_COMMENT'] = 'תן לי התראה כשמשתמש מוסיף תגובה לפוסט';
+$_LANG['NOTIFY_WHEN_A_USER_FAILS_TO_LOGIN'] = 'תן לי התראה כשמשתמש לא הצליח להתחבר';
+$_LANG['NOTIFY_WHEN_A_USER_SUCCESSES_LOGIN'] = 'תן לי תראה כשמשתמש הצליח להתחבר';
+$_LANG['NOTIFICATIONS_WILL_BE_SENT_TO_THIS_EMAIL'] = 'התראות ישלחו מייל זה';
+$_LANG['NOTIFICATIONS_WILL_BE_SENT_FROM_THIS_EMAIL'] = 'התראות ישלחו מהמייל הזה';
+$_LANG['EMAIL_ACCOUNTS_SETTINGS'] = 'הגדרות חשבון דואר אלקטרוני';
+$_LANG['NOTIFY_ME_FROM'] = 'Notify me from';
+$_LANG['NOTIFY_ME_TO'] = 'Notify me to';
+$_LANG['NOTIFICATIONS_VIA_EMAIL'] = 'Notifications via e-mail';
+$_LANG['YOUR_COMMENT_IS_UNDER_REVIEW_IT_WILL_BE'] = 'התגובה שלך נמצאת בבדיקה, היא תפורסם בקרוב';
+$_LANG['SANITIZE_HTML_CODE'] = 'HTML סנן קוד';
+$_LANG['MODERATE_COMMENTS'] = 'תגובות מתונות';
+$_LANG['ENABLE_SPAM_MONITOR'] = 'אפשר צג מוניטור';
+$_LANG['AUTOMATICALLY_DELETE_SPAM'] = 'מחק ספאם באופן אוטומטי';
+$_LANG['COMMENT_SETTINGS'] = 'הגדרות עבור תגובות';
+$_LANG['MANAGE_COMMENTS'] = 'נהל תגובות';
+$_LANG['BASIC_CONFIGURATION_OF_YOUR_BLOG'] = 'הגדרות בסיסיות עבור הבלוג שלך';
+$_LANG['SIMPLE_POST'] = 'פוסט פשוט';
+$_LANG['VIDEO_POST'] = 'וידאו פוסט';
+$_LANG['QUOTE_POST'] = 'פוסט עם ציטוט';
+$_LANG['CATEGORIES'] = 'קטגוריות';
+$_LANG['TAGS'] = 'תוויות';
+$_LANG['KEYWORDS'] = 'מילות מפתח';
+$_LANG['MANAGE'] = 'נהל';
+$_LANG['404_PAGE_NOT_FOUND'] = 'סליחה, הדף שאתה מחפש אינו קיים';
+$_LANG['NO_TITLE'] = 'אין כותרת';
+$_LANG['TITLE'] = 'כותרת';
+$_LANG['TYPE'] = 'סוג';
+$_LANG['CATEGORY'] = 'קטגוריה';
+$_LANG['PUBLISH_DATE'] = 'תאריך פרסום';
+$_LANG['LAST_MODIFIED'] = 'עריכה אחרונה';
+$_LANG['COMMENT'] = 'תגובה';
+$_LANG['POST'] = 'פוסט';
+$_LANG['SLUG'] = 'Slug';
+$_LANG['SITE'] = 'אתר';
+$_LANG['SITE_TITLE'] = 'כותרת האתר';
+$_LANG['SITE_DESCRIPTION'] = 'תיאור קצר של האתר';
+$_LANG['TAGS_SEPARATED_BY_COMMA'] = 'תוויות מופרדות על ידי פסיק';
+$_LANG['KEYWORDS_SEPARATED_BY_COMMA'] = 'מילות מפתח מופדות על ידי פסיק';
+$_LANG['ROBOTS'] = 'רובוטים';
+$_LANG['WEBMASTER_TOOLS'] = 'כלי מנהל האתרים';
+$_LANG['GOOGLE_WEBMASTER_TOOLS'] = 'קוד אימות - GOOGLE כלי מנהל האתרים של';
+$_LANG['BING_WEBMASTER_TOOLS'] = 'קוד אימות - BING כלי מנהל האתרים של';
+$_LANG['SEO_OPTIONS'] = 'SEO אפשרויות';
+$_LANG['SHARE'] = 'שתף';
+$_LANG['ALLOW_COMMENTS_ON_THIS_POST'] = 'הרשה להגיב על הפוסט הזה';
+$_LANG['MULTIPLE_DIRECTIVES_MAY_BE_COMBINED_IN'] = 'פקודות מופרדות על ידי פסיק';
+$_LANG['DRAFT_POSTS'] = 'Draft posts';
+$_LANG['POSITION'] = 'עמדה';
+
+$_LANG['UPLOAD_A_NEW_IMAGE'] = 'העלאה של תמונה חדשה';
+$_LANG['OR'] = 'או';
+$_LANG['SELECT_AN_IMAGE_FROM_YOUR_BAG'] = 'בחר תמונה מהספרייה האישית שלך';
+
+$_LANG['THERE_IS_A_NEW_VERSION'] = 'גרסה חדשה זמינה להורדה';
+$_LANG['VERSION'] = 'גרסה';
+$_LANG['RELEASE_DATE'] = 'תאריך שחרור';
+
+$_LANG['NEW_PAGE'] = 'דף חדש';
+$_LANG['PAGE'] = 'דף';
+$_LANG['PAGES'] = 'דפים';
+$_LANG['PAGE_HAS_BEEN_PUBLISHED_SUCCESSFULLY'] = 'הדף פוסם בהצלחה';
+$_LANG['THERE_ARE_NO_PAGES'] = 'אין דפים';
+$_LANG['HOME'] = 'בית';
+$_LANG['REQUEST_NEW_PASSWORD'] = 'דרוש סיסמא חדשה';
+
+$_LANG['WE_ARE_SENT_YOU_AN_EMAIL'] = 'We\'ve sent you an email, please check your spam mail just in case.';
+$_LANG['AN_ERROR_OCURRED_WHILE'] = 'An error occurred while sending mail.';
+
+$_LANG['EMAIL_NOTIFICATION_FAIL_LOGIN'] = '
+<p>This is a notification from your blog {{BLOG_NAME}}</p>
+<p>Someone wanted to access your blog with the user: {{USERNAME}} and Password: {{PASSWORD}}</p>
+<p>The IP address {{IP}} which they wanted to connect.</p>
+';
+
+$_LANG['EMAIL_NOTIFICATION_SESSION_STARTED'] = '
+<p>This is a notification from your blog {{BLOG_NAME}}</p>
+<p>Successfully joined to admin area with username: {{USERNAME}}</p>
+<p>The IP address {{IP}} which they wanted to connect.</p>
+';
+
+$_LANG['EMAIL_NOTIFICATION_NEW_COMMENT'] = '
+<p>This is a notification from your blog {{BLOG_NAME}}</p>
+<p>You have a new comment on your blog.</p>
+<p>{{COMMENT}}</p>
+<p>Autor: {{AUTHOR_NAME}}</p>
+<p>Email: {{AUTHOR_EMAIL}}</p>
+<p>IP: {{IP}}</p>
+';
+
+$_LANG['EMAIL_NOTIFICATION_FORGOT_PASSWORD'] = '
+<p>This is a notification from your blog {{BLOG_NAME}}</p>
+<p>Forgot your password? no problem!</p>
+<p>Follow the next link: {{FORGOT_LINK}}</p>
+';
+
+?>
