@@ -163,6 +163,14 @@ class NotORM_Row extends NotORM_Abstract implements IteratorAggregate, ArrayAcce
 		if (!array_key_exists($key, $this->row)) {
 			$this->access($key, true);
 		}
+		if(!isset($this->row[$key]))
+		{
+			return null;
+		}
+		else 
+		{
+			return $this->row[$key];
+		}
 		return $this->row[$key];
 	}
 	
