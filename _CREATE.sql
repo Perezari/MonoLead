@@ -6,7 +6,7 @@ CREATE TABLE `config` (
   `datetime_format` varchar(50) DEFAULT NULL,
   `guest_register` enum('Yes','No') DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='Config Table';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Config Table';
 
 CREATE TABLE `usergroup` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -15,7 +15,7 @@ CREATE TABLE `usergroup` (
   `badge` varchar(50) DEFAULT NULL,
   `icon` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='Group Table';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Group Table';
 
 CREATE TABLE `runningnumber` (
   `numbercode` varchar(50) NOT NULL,
@@ -23,7 +23,7 @@ CREATE TABLE `runningnumber` (
   `format` varchar(50) NOT NULL,
   `lastnumber` int(11) NOT NULL,
   PRIMARY KEY (`numbercode`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `runningnumber` (`numbercode`, `prefix`, `format`, `lastnumber`) VALUES
 ('PROJECT', 'PR', '000', 0),
@@ -36,7 +36,7 @@ CREATE TABLE `status` (
   `type` varchar(50) DEFAULT NULL,
   `icon` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `status` (`id`, `name`, `type`, `icon`) VALUES
 (1, 'Open', 'PROJECT', 'icon-open'),
@@ -58,7 +58,7 @@ CREATE TABLE `project` (
   PRIMARY KEY (`id`),
   KEY `FK_PROJECT_STATUS_ID` (`status_id`),
   CONSTRAINT `FK_PROJECT_STATUS_ID` FOREIGN KEY (`status_id`) REFERENCES `status` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `user` (
   `id` varchar(50) NOT NULL,
@@ -82,7 +82,7 @@ CREATE TABLE `user` (
   UNIQUE KEY (`email`),
   KEY `FK_G` (`usergroup_id`),
   CONSTRAINT `FK_G` FOREIGN KEY (`usergroup_id`) REFERENCES `usergroup` (`id`) ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='User Table';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='User Table';
 
 CREATE TABLE `task` (
   `id` varchar(50) NOT NULL,
@@ -104,7 +104,7 @@ CREATE TABLE `task` (
   CONSTRAINT `FK_TASK_CREATED_BY` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`),
   CONSTRAINT `FK_TASK_PROJECT_ID` FOREIGN KEY (`project_id`) REFERENCES `project` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION,
   CONSTRAINT `FK_TASK_STATUS_ID` FOREIGN KEY (`status_id`) REFERENCES `status` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `tasker` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -115,7 +115,7 @@ CREATE TABLE `tasker` (
   KEY `FK_TASKER_USER_ID` (`user_id`),
   CONSTRAINT `FK_TASKER_TASK_ID` FOREIGN KEY (`task_id`) REFERENCES `task` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION,
   CONSTRAINT `FK_TASKER_USER_ID` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `tasklog` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -125,7 +125,7 @@ CREATE TABLE `tasklog` (
   `update_date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
   `Name` varchar(100) DEFAULT NULL,
    PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `activity` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -143,7 +143,7 @@ CREATE TABLE `activity` (
   CONSTRAINT `FK_COMMENT_STATUS_ID` FOREIGN KEY (`status_id`) REFERENCES `status` (`id`),
   CONSTRAINT `FK_COMMENT_TASK_ID` FOREIGN KEY (`task_id`) REFERENCES `task` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION,
   CONSTRAINT `FK_COMMENT_USER_ID` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `usergroup` (`id`, `groupcode`, `usergroup`, `badge`, `icon`) VALUES
 (1, 'ADM', 'Admin', 'ADMINISTRATOR', 'icon-admin'),
