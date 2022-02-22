@@ -9,12 +9,11 @@ body, html {
 }
 
 .bgimg {
-    background-image: url("<?php echo STATIC_DIR; ?>/images/Wallpaper/bgone.jpg");
+    background-image: url("<?php echo STATIC_DIR; ?>/images/bgone.png");
+	border: 1px solid #dfdfdf;
+	padding: 5px;
     height: 100%;
     background-position: center;
-    background-size: cover;
-    position: relative;
-    color: white;
     font-family: "Courier New", Courier, monospace;
     font-size: 25px;
 }
@@ -52,8 +51,6 @@ hr {
   </div>
   <div class="middle">
     <h1>MAIL TO US</h1>
-    <hr>
-    <p>Your email: <?php echo Handler::$_LOGIN_USER_EMAIL; ?></p>
 	
 <div id="form" style="width: 750px;">
     <div class="w2ui-page page-0">

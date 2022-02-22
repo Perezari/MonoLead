@@ -5,7 +5,8 @@
     		<div class="footer">Elementech <?php echo version;?> &nbsp; | &nbsp; </div>
 			<?php if(Handler::$_IS_ADMIN) echo "<div class='footer'>Current Database Name:";?> <?php if(Handler::$_IS_ADMIN) echo $config['db_name'];?> <?php if(Handler::$_IS_ADMIN) echo " &nbsp; | &nbsp; </div>";?>
 			<?php if(Handler::$_IS_ADMIN) echo "<div class='footer'>Database User Name:";?> <?php if(Handler::$_IS_ADMIN) echo $config['db_username'];?> <?php if(Handler::$_IS_ADMIN) echo " &nbsp; | &nbsp; </div>";?>
-			<?php if(Handler::$_IS_ADMIN) echo "<div class='footer'>Database Password:";?> <?php if(Handler::$_IS_ADMIN) echo $config['db_password'];?> <?php if(Handler::$_IS_ADMIN) echo "</div>";?>
+			<?php if(Handler::$_IS_ADMIN) echo "<div class='footer'>Database Password:";?> <?php if(Handler::$_IS_ADMIN) echo $config['db_password'];?> <?php if(Handler::$_IS_ADMIN) echo " &nbsp; | &nbsp; </div>";?>
+			<?php if(Handler::$_IS_ADMIN) echo "<div class='footer'>User email:";?> <?php echo Handler::$_LOGIN_USER_EMAIL; ?> <?php if(Handler::$_IS_ADMIN) echo "</div>";?>
     		<div class="footer-additional">
     			<?php echo Handler::$_ADDITIONAL_FOOTER;?>
     		</div>
