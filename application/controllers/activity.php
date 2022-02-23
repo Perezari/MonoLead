@@ -26,6 +26,14 @@ class Activity extends Controller {
         );
         $_TASK->updateTask($arrayTaskHeader);
         
+
+        $_TASK_LOG = $this->loadModel('TaskLogModel');
+        $_TASK_LOG->addLog(array(
+            "id" => $task_id,
+            "user_id" => Session::r('USER_ID'),
+            "user_name" => Session::r('USER_NAME'),
+        ), "adding activity to task");
+
         die();
     }
 

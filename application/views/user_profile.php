@@ -171,7 +171,7 @@ $(function () {
         w2ui['form_user'].record['profile_pic_url'] = result['fullurl'];
         w2ui['form_user'].refresh();
         $("#profile_pic_image").removeAttr("src");
-        $("#profile_pic_image").attr("src", "<?php echo STATIC_DIR.$_USER_PROFILE_PIC; ?>?timestamp=" + new Date().getTime() );
+        $("#profile_pic_image").attr("src", "<?php echo STATIC_DIR; ?>"+result['fullurl']+"?timestamp=" + new Date().getTime() );
       },
       complete: function(xhr) {}
     });

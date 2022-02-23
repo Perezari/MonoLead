@@ -24,6 +24,17 @@ class TaskLogModel extends Model {
     }
   }
 
+  public function addLog($array = null, $action = "")
+  {
+    $data = array();
+    $data['user_id'] = $array['user_id'];
+    $data['task_id'] = $array['id'];
+    $data['user_name'] = $array['user_name'];
+    $data['update_date'] = date('Y-m-d H:i:s');
+    $data['Name'] = $action;
+    $this->notorm()->tasklog()->insert($data);
+  }
+
   public function deleteLog($id = null)
   {
     $result = $this->notorm()->tasklog[$id];

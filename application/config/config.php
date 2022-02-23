@@ -6,7 +6,7 @@ $config['default_controller'] = 'main';
 $config['error_controller'] = 'main';
 
 $config['db_host'] = 'localhost';
-$config['db_name'] = 'elementech_test4';
+$config['db_name'] = 'elementech_test';
 $config['db_username'] = 'Ari';
 $config['db_password'] = '250691';
 

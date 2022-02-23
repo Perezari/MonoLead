@@ -23,17 +23,20 @@
 	       	header:'Users',
         	multiSelect: false, 
 	        show: {
-            	lineNumbers    : true,
-	        	header: true,
-        		toolbar     : true,
-			    toolbarColumns  : false,
-			    toolbarSearch   : false
-	        },   
+            	lineNumbers    	: true,
+	        	header			: true,
+        		toolbar     	: true,
+			    toolbarColumns  : true,
+			    toolbarSearch   : true,
+				footer			: true,
+				toolbarSearch   : true
+	        },  
 		    toolbar: {
 		        items: [
 		            { type: 'button',  id: 'add_user',  caption: 'Add', img: 'icon-add', hint: 'Add new user' },
 		            { type: 'button',  id: 'edit_user',  caption: 'Edit', img: 'icon-pencil', hint: 'Edit' },
-		            { type: 'button',  id: 'delete_user',  caption: 'Delete', img: 'icon-cancel', hint: 'Delete' }
+		            { type: 'button',  id: 'delete_user',  caption: 'Delete', img: 'icon-cancel', hint: 'Delete' },
+					{ type: 'drop',  id: 'User_info', caption: 'Information', img: 'icon-info', html: '<div style="padding: 10px; line-height: 1.5">You are in the User table.' }
 		        ],
 		        onClick: function (target, data) {
 		        	var selected = w2ui['user_grid'].get(w2ui['user_grid'].getSelection()[0]);

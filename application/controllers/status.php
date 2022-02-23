@@ -95,7 +95,6 @@ class Status extends Controller {
 
   function go_edit_status()
   {
-
     $_STATUS = $this->loadModel('StatusModel');
 
     $name = 'icon-developer';

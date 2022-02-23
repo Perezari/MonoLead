@@ -1,50 +1,8 @@
-.icon-reportall{
-	background:url('icons/reportall.png') no-repeat center center;
-}
-.icon-dracula{
-	background:url('icons/dracula.ico') no-repeat center center;
-}
-.icon-adddb{
-	background:url('icons/adddb.png') no-repeat center center;
-}
-.icon-fixdb{
-	background:url('icons/fixdb.png') no-repeat center center;
-}
-.icon-reload{
-	background:url('icons/reload.png') no-repeat center center;
-}
-.icon-filemanager{
-	background:url('icons/filemanager.png') no-repeat center center;
-}
-.icon-programlocation{
-	background:url('icons/programlocation.png') no-repeat center center;
-}
-.icon-battery{
-	background:url('icons/battery.png') no-repeat center center;
-}
-.icon-status{
-	background:url('icons/status.png') no-repeat center center;
-}
-.icon-requestordertype{
-	background:url('icons/requestordertype.png') no-repeat center center;
-}
-.icon-organizationsub{
-	background:url('icons/organizationsub.png') no-repeat center center;
-}
-.icon-help{
-	background:url('icons/help.png') no-repeat center center;
-}
 .icon-autogenerate{
 	background:url('icons/autogenerate.png') no-repeat center center;
 }
-.icon-TTT{
-	background:url('icons/TTT.png') no-repeat center center;
-}
 .icon-usergroup{
 	background:url('icons/usergroup.png') no-repeat center center;
-}
-.icon-emergencyrequestorder{
-	background:url('icons/emergencyrequestorder.png') no-repeat center center;
 }
 .icon-brand{
 	background:url('icons/brand.png') no-repeat center center;
@@ -84,18 +42,6 @@
 }
 .icon-group2{
 	background:url('icons/group2.png') no-repeat center center;
-}
-.icon-designer{
-	background:url('icons/designer.png') no-repeat center center;
-}
-.icon-CSharpExpert{
-	background:url('icons/CSharpExpert.png') no-repeat center center;
-}
-.icon-CPPExpert{
-	background:url('icons/CPPExpert.png') no-repeat center center;
-}
-.icon-Python{
-	background:url('icons/Python.png') no-repeat center center;
 }
 .icon-developer{
 	background:url('icons/developer.png') no-repeat center center;
@@ -151,264 +97,80 @@
 .icon-progress{
 	background:url('icons/progress.png') no-repeat center center;
 }
-.icon-programprogram{
-	background:url('icons/programprogram.png') no-repeat center center;
-}
-.icon-CPPExpert_png{
-background:url('icons/CPPExpert.png') no-repeat center center;}
+.icon-battery_png{background:url('icons/battery.png') no-repeat center center;}
 
-.icon-brand_png{
-background:url('icons/brand.png') no-repeat center center;}
+.icon-CPPExpert_png{background:url('icons/CPPExpert.png') no-repeat center center;}
 
-.icon-CSharpExpert_png{
-background:url('icons/CSharpExpert.png') no-repeat center center;}
-
-.icon-CPPExpert_png{
-background:url('icons/CPPExpert.png') no-repeat center center;}
-
-.icon-CSharpExpert_png{
-background:url('icons/CSharpExpert.png') no-repeat center center;}
-
-.icon-designer_png{
-background:url('icons/designer.png') no-repeat center center;}
-
-.icon-config_png{
-background:url('icons/config.png') no-repeat center center;}
-
-.icon-groupmodule_gif{
-background:url('icons/groupmodule.gif') no-repeat center center;}
-
-.icon-Python_png{
-background:url('icons/Python.png') no-repeat center center;}
-
-.icon-CSharpExpert_png{
-background:url('icons/CSharpExpert.png') no-repeat center center;}
-
-.icon-CPPExpert_png{
-background:url('icons/CPPExpert.png') no-repeat center center;}
-
-.icon-i{
-background:url('icons/i') no-repeat center center;}
-
-.icon-Python_png{
-background:url('icons/Python.png') no-repeat center center;}
-
-.icon-qatar-QA-flag-country-code-oval-bumper-sticker_jpg{
-background:url('icons/qatar-QA-flag-country-code-oval-bumper-sticker.jpg') no-repeat center center;}
-
-.icon-add_png{
-background:url('icons/add.png') no-repeat center center;}
-
-.icon-autogenerate_png{
-background:url('icons/autogenerate.png') no-repeat center center;}
-
-.icon-currency_png{
-background:url('icons/currency.png') no-repeat center center;}
-
-.icon-Frontend_jpg{
-background:url('icons/Frontend.jpg') no-repeat center center;}
-
-.icon-department_png{
-background:url('icons/department.png') no-repeat center center;}
-
-.icon-brand_png{
-background:url('icons/brand.png') no-repeat center center;}
-
-.icon-admin_png{
-background:url('icons/admin.png') no-repeat center center;}
-
-.icon-wp-logo_png{
-background:url('icons/wp-logo.png') no-repeat center center;}
-
-.icon-download_png{
-background:url('icons/download.png') no-repeat center center;}
-
-.icon-JS_png{
-background:url('icons/JS.png') no-repeat center center;}
-
-.icon-CSS_gif{
-background:url('icons/CSS.gif') no-repeat center center;}
-
-.icon-group2_png{
-background:url('icons/group2.png') no-repeat center center;}
-
-.icon-data_png{
-background:url('icons/data.png') no-repeat center center;}
-
-.icon-add_png{
-background:url('icons/add.png') no-repeat center center;}
-
-.icon-CSharpExpert_png{
-background:url('icons/CSharpExpert.png') no-repeat center center;}
-
-.icon-config_png{
-background:url('icons/config.png') no-repeat center center;}
-
-.icon-admin_png{
-background:url('icons/admin.png') no-repeat center center;}
-
-.icon-closed_f_png{
-background:url('icons/closed_f.png') no-repeat center center;}
-
-.icon-closed_f_png{
-background:url('icons/closed_f.png') no-repeat center center;}
-
-.icon-finddata__png{
-background:url('icons/finddata_.png') no-repeat center center;}
-
-.icon-devops_jpg{
-background:url('icons/devops.jpg') no-repeat center center;}
-<<<<<<< HEAD
-
-.icon-requestordertype{
-background:url('icons/requestordertype.png') no-repeat center center;}
-=======
->>>>>>> 1587a3e2dfe19395b561b0de615c3f603e2467d1
-
-.icon-close_png{
-background:url('icons/close.png') no-repeat center center;}
-
-.icon-developer_png{
-background:url('icons/developer.png') no-repeat center center;}
-
-.icon-help_png{
-background:url('icons/help.png') no-repeat center center;}
-
-.icon-agent_png{
-background:url('icons/agent.png') no-repeat center center;}
-
-.icon-no_png{
-background:url('icons/no.png') no-repeat center center;}
-
-.icon-brand_png{
-background:url('icons/brand.png') no-repeat center center;}
-
-.icon-brand_png{
-background:url('icons/brand.png') no-repeat center center;}
-
-.icon-brand_png{
-background:url('icons/brand.png') no-repeat center center;}
-
-.icon-currency_png{
-background:url('icons/currency.png') no-repeat center center;}
-
-.icon-brand_png{
-background:url('icons/brand.png') no-repeat center center;}
-
-.icon-Python_png{
-background:url('icons/Python.png') no-repeat center center;}
-
-.icon-brand_png{
-background:url('icons/brand.png') no-repeat center center;}
-
-.icon-no_png{
-background:url('icons/no.png') no-repeat center center;}
-
-.icon-building_png{
-background:url('icons/building.png') no-repeat center center;}
-
-.icon-brand_png{
-background:url('icons/brand.png') no-repeat center center;}
-
-.icon-CSharpExpert_png{
-background:url('icons/CSharpExpert.png') no-repeat center center;}
-
-.icon-CPPExpert_png{
-background:url('icons/CPPExpert.png') no-repeat center center;}
-
-.icon-CSharpExpert_png{
-background:url('icons/CSharpExpert.png') no-repeat center center;}
-
-.icon-Python_png{
-background:url('icons/Python.png') no-repeat center center;}
-
-.icon-designer_png{
-background:url('icons/designer.png') no-repeat center center;}
-
-.icon-CSS_gif{
-background:url('icons/CSS.gif') no-repeat center center;}
-
-.icon-download_png{
-background:url('icons/download.png') no-repeat center center;}
-
-.icon-devops_jpg{
-background:url('icons/devops.jpg') no-repeat center center;}
-
-.icon-brand_png{
-background:url('icons/brand.png') no-repeat center center;}
-
-.icon-brand_png{
-background:url('icons/brand.png') no-repeat center center;}
-
-.icon-no_png{
-background:url('icons/no.png') no-repeat center center;}
-
-.icon-CPPExpert_png{
-background:url('icons/CPPExpert.png') no-repeat center center;}
-
-.icon-CSharpExpert_png{
-background:url('icons/CSharpExpert.png') no-repeat center center;}
-
-.icon-Python_png{
-background:url('icons/Python.png') no-repeat center center;}
-
-.icon-designer_png{
-background:url('icons/designer.png') no-repeat center center;}
-
-.icon-add_png{
-background:url('icons/add.png') no-repeat center center;}
-
-.icon-groupmodule_gif{
-background:url('icons/groupmodule.gif') no-repeat center center;}
-
-.icon-autogenerate_png{
-background:url('icons/autogenerate.png') no-repeat center center;}
-
-.icon-currency_png{
-background:url('icons/currency.png') no-repeat center center;}
-
-.icon-config_png{
-background:url('icons/config.png') no-repeat center center;}
-
-.icon-finddata__png{
-background:url('icons/finddata_.png') no-repeat center center;}
-
-.icon-wp-logo_png{
-background:url('icons/wp-logo.png') no-repeat center center;}
-
-.icon-download_png{
-background:url('icons/download.png') no-repeat center center;}
-
-.icon-CSS_gif{
-background:url('icons/CSS.gif') no-repeat center center;}
-
-.icon-group2_png{
-background:url('icons/group2.png') no-repeat center center;}
-
-.icon-data_png{
-background:url('icons/data.png') no-repeat center center;}
-
-.icon-department_png{
-background:url('icons/department.png') no-repeat center center;}
-
-.icon-CPPExpert_png{
-background:url('icons/CPPExpert.png') no-repeat center center;}
-.icon-reportall_png{background:url('icons/reportall.png') no-repeat center center;}
-
-.icon-cancel_png{background:url('icons/cancel.png') no-repeat center center;}
-
-.icon-finddata__png{background:url('icons/finddata_.png') no-repeat center center;}
+.icon-battery_png{background:url('icons/battery.png') no-repeat center center;}
 
 .icon-Python_png{background:url('icons/Python.png') no-repeat center center;}
 
-.icon-packagemodule_png{background:url('icons/packagemodule.png') no-repeat center center;}
+.icon-battery_png{background:url('icons/battery.png') no-repeat center center;}
 
 .icon-Python_png{background:url('icons/Python.png') no-repeat center center;}
 
-.icon-cplogo_png{background:url('icons/cplogo.png') no-repeat center center;}
+.icon-add_png{background:url('icons/add.png') no-repeat center center;}
+
+.icon-battery_png{background:url('icons/battery.png') no-repeat center center;}
+
+.icon-Python_png{background:url('icons/Python.png') no-repeat center center;}
+
+.icon-battery_png{background:url('icons/battery.png') no-repeat center center;}
+
+.icon-Python_png{background:url('icons/Python.png') no-repeat center center;}
+
+.icon-NANO_0717_bmp{background:url('icons/NANO_0717.bmp') no-repeat center center;}
+
+.icon-IMG_5348_jpg{background:url('icons/IMG_5348.jpg') no-repeat center center;}
+
+.icon-filemanager_png{background:url('icons/filemanager.png') no-repeat center center;}
+
+.icon-adddb_png{background:url('icons/adddb.png') no-repeat center center;}
+
+.icon-admin_png{background:url('icons/admin.png') no-repeat center center;}
+
+.icon-agent_png{background:url('icons/agent.png') no-repeat center center;}
+
+.icon-autogenerate_png{background:url('icons/autogenerate.png') no-repeat center center;}
+
+.icon-battery_png{background:url('icons/battery.png') no-repeat center center;}
+
+.icon-box_png{background:url('icons/box.png') no-repeat center center;}
+
+.icon-box_png{background:url('icons/box.png') no-repeat center center;}
+
+.icon-brand_png{background:url('icons/brand.png') no-repeat center center;}
 
 .icon-building_png{background:url('icons/building.png') no-repeat center center;}
 
-.icon-department_png{background:url('icons/department.png') no-repeat center center;}
+.icon-buildingfloor_png{background:url('icons/buildingfloor.png') no-repeat center center;}
 
-.icon-Python_png{background:url('icons/Python.png') no-repeat center center;}
+.icon-cancel_png{background:url('icons/cancel.png') no-repeat center center;}
+
+.icon-close_png{background:url('icons/close.png') no-repeat center center;}
+
+.icon-closed_f_png{background:url('icons/closed_f.png') no-repeat center center;}
+
+.icon-comment_png{background:url('icons/comment.png') no-repeat center center;}
+
+.icon-complete_png{background:url('icons/complete.png') no-repeat center center;}
+
+.icon-config_png{background:url('icons/config.png') no-repeat center center;}
+
+.icon-country_png{background:url('icons/country.png') no-repeat center center;}
+
+.icon-cplogo_png{background:url('icons/cplogo.png') no-repeat center center;}
+
+.icon-CPPExpert_png{background:url('icons/CPPExpert.png') no-repeat center center;}
+
+.icon-CSharpExpert_png{background:url('icons/CSharpExpert.png') no-repeat center center;}
+
+.icon-CSS_gif{background:url('icons/CSS.gif') no-repeat center center;}
+
+.icon-currency_png{background:url('icons/currency.png') no-repeat center center;}
+
+.icon-data_png{background:url('icons/data.png') no-repeat center center;}
+
+.icon-date_png{background:url('icons/date.png') no-repeat center center;}
+
+.icon-department_png{background:url('icons/department.png') no-repeat center center;}

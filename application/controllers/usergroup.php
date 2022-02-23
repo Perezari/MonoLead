@@ -24,7 +24,7 @@ class UserGroup extends Controller {
 
     function get_user_group_list()
     {
-        $_USERGROUP = $this->loadModel('UserGroupModel');
+        $_USERGROUP = $this->loadModel('UserGroupViewModel');
         $_USERGROUP_DATA = $_USERGROUP->getAllUsergroup($_POST);
 
         $result['status'] = 'success';
@@ -36,7 +36,8 @@ class UserGroup extends Controller {
                 'groupcode' => $value['groupcode'], 
                 'usergroup' => $value['usergroup'],
                 'badge' => $value['badge'],
-                'icon' => $value['icon']
+                'icon' => $value['icon'],
+                'Total' => $value['Total']
             ));
         }
         echo json_encode($result);
@@ -92,8 +93,7 @@ class UserGroup extends Controller {
     }
 
     function go_edit_user_group()
-    {
-       
+    {    
         $_USERGROUP = $this->loadModel('UserGroupModel');
 
         $name = 'icon-developer';

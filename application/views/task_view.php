@@ -257,9 +257,9 @@
 	                    return html;
 	                }
                 },
-	            { field: 'progress', caption: 'Progress', size: '80px', resizable: true, searchable: true,
+	            { field: 'progress', caption: 'Progress', size: '80px', resizable: true,sortable:true,
 	                render: function (record, index, column_index) {
-	                    var html = '<div class="progress-box" style="width:108px;overflow:hidden"><div class="progress-fill" style="width:'+record.progress+'px;background-color:hsl('+record.progress+', 100%, 50%)"></div></div>';
+	                    var html = '<div style="font-weight:bold;text-align:center">'+ record.progress+'</div>';
 	                    return html;
 	                }
                 },
