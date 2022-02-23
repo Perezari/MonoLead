@@ -38,12 +38,12 @@ $(function () {
 						},
 						{ id: 'level-2-3', text: 'Status', img: 'icon-folder', count: 1,
 	                       nodes: [
-									<?php if(Handler::$_IS_ADMIN || Handler::$_HAVE_PT_STATUS) echo "{ type: 'button', id: 'status',  caption: 'Status', img: 'icon-organizationsub', hint: 'Status' },"; ?>
+									<?php if(Handler::$_IS_ADMIN || Handler::$_HAVE_PT_STATUS) echo "{ type: 'button', id: 'status',  caption: 'Status', img: 'icon-group2', hint: 'Status' },"; ?>
 								  ]
 						},
 						{ id: 'level-2-4', text: 'Logs', img: 'icon-folder', count: 1,
 	                       nodes: [
-									<?php if(Handler::$_IS_ADMIN || Handler::$_HAVE_PT_LOG) echo "{ type: 'button', id: 'tasklog',  caption: 'Tasks Log', img: 'icon-reportall', hint: 'Tasks Log' },"; ?>
+									<?php if(Handler::$_IS_ADMIN || Handler::$_HAVE_PT_LOG) echo "{ type: 'button', id: 'tasklog',  caption: 'Tasks Log', img: 'icon-ticket', hint: 'Tasks Log' },"; ?>
 								  ]
 						}
 	                 ]

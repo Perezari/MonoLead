@@ -17,16 +17,16 @@
 	$(function () {
 	    tools =  {
             items: [
-			    { type: 'button',  id: 'mainpanel', caption: 'Main Panel', img: 'icon-programlocation' },
+			    { type: 'button',  id: 'mainpanel', caption: 'Main Panel', img: 'icon-house' },
                 { type: 'button',  id: 'main', caption: 'Dashboard', img: 'icon-house' },
                 { type: 'break',  id: 'break0' },
                 { type: 'button',  id: 'taskboard', caption: 'Taskboard', img: 'icon-taskboard' },
-				{ type: 'button',  id: 'diary', caption: 'Contact Details', img: 'icon-requestordertype' },
+				{ type: 'button',  id: 'diary', caption: 'Contact Details', img: 'icon-group' },
 				{ type: 'break' },				
 				//{ type: 'button',  id: 'TicTac', caption: 'Tic-Tac-Toe', img: 'icon-TTT' },
                	{ type: 'spacer' },
 				{ type: 'break' },
-				{ type: 'button', id: 'contactus',  caption: 'Contact us', img: 'icon-emergencyrequestorder', hint: 'Contact' },
+				{ type: 'button', id: 'contactus',  caption: 'Contact us', img: 'icon-waiting', hint: 'Contact' },
 				{ type: 'break' },
 				{ type: 'button',  id: 'user/profile',  caption: '<?php echo Handler::$_LOGIN_USER_NAME; ?>', img: 'icon-info', hint: 'Your profile' },
                 { type: 'button',  id: 'user/<?php echo Handler::$_LOGIN_ACT_NAME; ?>',  caption: '<?php echo Handler::$_LOGIN_ACT_LABEL; ?> - <?php echo Handler::$_LOGIN_USER_EMAIL; ?>', img: 'icon-user', hint: 'Logout' }
