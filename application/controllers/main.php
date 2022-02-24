@@ -52,10 +52,12 @@ class Main extends Controller {
         $update++;
       }
 
-      else
+      else if ($value['Name'] == 'DELETE')
       {
         $delete++;
       }
+	  
+	  else {}
     }
 	
 	/* Total Insert Log */

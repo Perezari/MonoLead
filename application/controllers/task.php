@@ -46,8 +46,7 @@ class Task extends Controller {
 	}
 
     function go_insert_task()
-    {
-       
+    {     
         $_TASK = $this->loadModel('TaskModel');
 
         $_start_date = date('Y-m-d H:i:s',strtotime($_POST['record']['start_date']." ".$_POST['record']['start_time']));
@@ -68,8 +67,7 @@ class Task extends Controller {
             "user_id" => Session::r('USER_ID')
         );
 
-        $_TASK->saveTask($arrayTaskHeader);
-        
+        $_TASK->saveTask($arrayTaskHeader);   
 
         $_TASKER = $this->loadModel('TaskerModel');
         if(isset($_POST['record']['assigned'])){
@@ -82,6 +80,20 @@ class Task extends Controller {
                 $_TASKER->saveTasker($arrayTaskAssigned);
             }
         }
+		
+		$_LOG = $this->loadModel('TaskLogModel');
+		if(isset($_POST['record']['assigned'])){
+			foreach ($_POST['record']['assigned'] as $key => $value) {
+				$arrayLogAssigned = array(
+					"id" 		=> null,
+					"user_id" 	=> Handler::$_LOGIN_USER_ID,
+					"task_id" 	=> $id,				
+					"Name" 		=> 'INSERT',
+					"user_name" => Handler::$_LOGIN_USER_NAME
+				);
+				$_LOG->saveLog($arrayLogAssigned);
+			}
+		}
 
         die();
     }
@@ -124,6 +136,18 @@ class Task extends Controller {
                 $_TASKER->saveTasker($arrayTaskAssigned);
             }
         }
+		
+	    $_LOG = $this->loadModel('TaskLogModel');
+		if(isset($_POST['record']['assigned'])){
+				$arrayLogAssigned = array(
+					"id" => null,
+					"user_id" 	=> Handler::$_LOGIN_USER_ID,
+					"task_id" 	=> $id,				
+					"Name" 		=> 'UPDATE',
+					"user_name" => Handler::$_LOGIN_USER_NAME
+				);
+				$_LOG->saveLog($arrayLogAssigned);		
+		}
 
         die();
     }
@@ -216,6 +240,16 @@ class Task extends Controller {
 
     function delete_task()
     {
+		$_LOG = $this->loadModel('TaskLogModel');
+		$arrayLogAssigned = array(
+					"id" => null,
+					"user_id" 	=> Handler::$_LOGIN_USER_ID,
+					"task_id" 	=> $_POST['id'],				
+					"Name" 		=> 'DELETE',
+					"user_name" => Handler::$_LOGIN_USER_NAME
+				);
+		$_LOG->saveLog($arrayLogAssigned);	
+		
         $_TASKER = $this->loadModel('TaskerModel');
         $_TASKER->deleteTaskerByTask($_POST['id']);
        
@@ -263,8 +297,7 @@ class Task extends Controller {
     }
 
     function update_description()
-    {
-       
+    {     
         $_TASK = $this->loadModel('TaskModel');
 
         $task_id =$_POST['task_id'];
@@ -282,7 +315,6 @@ class Task extends Controller {
         }
         
         die();
-
     }
 }
 

@@ -88,6 +88,13 @@ class UserGroup extends Controller {
         );
 
         $_USERGROUP->addUserGroup($array);
+		
+		$_TASK_LOG = $this->loadModel('TaskLogModel');
+        $_TASK_LOG->addLog(array(
+            "id" => $_POST['record']['groupcode'],
+            "user_id" => Session::r('USER_ID'),
+            "user_name" => Session::r('USER_NAME'),
+        ), "Add user group");
 
         die();
     }
@@ -117,6 +124,13 @@ class UserGroup extends Controller {
         );
 
         $_USERGROUP->saveUserGroup($array);
+		
+		$_TASK_LOG = $this->loadModel('TaskLogModel');
+        $_TASK_LOG->addLog(array(
+            "id" => $_POST['record']['groupcode'],
+            "user_id" => Session::r('USER_ID'),
+            "user_name" => Session::r('USER_NAME'),
+        ), "Edit user group");
 
         die();
     }
@@ -124,9 +138,16 @@ class UserGroup extends Controller {
     function delete_user_group()
     {
         $_USERGROUP = $this->loadModel('UserGroupModel');
+		
+	    $_TASK_LOG = $this->loadModel('TaskLogModel');
+        $_TASK_LOG->addLog(array(
+            "id" => $_POST['id'],
+            "user_id" => Session::r('USER_ID'),
+            "user_name" => Session::r('USER_NAME'),
+        ), "Delete user group");
+		
         $_USERGROUP->deleteUserGroup($_POST['id']);
 
         die();
     }
-
 }

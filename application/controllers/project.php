@@ -86,6 +86,13 @@ class Project extends Controller {
         );
 
         $_PROJECT->saveProject($array);
+		
+		$_TASK_LOG = $this->loadModel('TaskLogModel');
+        $_TASK_LOG->addLog(array(
+            "id" => $_POST['record']['id'],
+            "user_id" => Session::r('USER_ID'),
+            "user_name" => Session::r('USER_NAME'),
+        ), "Edit project");
 
         die();
     }
@@ -105,21 +112,34 @@ class Project extends Controller {
 
         $_PROJECT->addProject($array);
 
+		$_TASK_LOG = $this->loadModel('TaskLogModel');
+        $_TASK_LOG->addLog(array(
+            "id" => $_POST['record']['name'],
+            "user_id" => Session::r('USER_ID'),
+            "user_name" => Session::r('USER_NAME'),
+        ), "Add project");
+		
         die();
     }
 
 	function delete_project()
     {
         $_TASK = $this->loadModel('TaskModel');
+		
+		$_TASK_LOG = $this->loadModel('TaskLogModel');
+        $_TASK_LOG->addLog(array(
+            "id" => $_POST['id'],
+            "user_id" => Session::r('USER_ID'),
+            "user_name" => Session::r('USER_NAME'),
+        ), "Delete project");
+		
         $_TASK->deleteTaskByProject($_POST['id']);
 
         $_PROJECT = $this->loadModel('ProjectModel');
         $_PROJECT->deleteProject($_POST['id']);
 
-
         die();
-	}
-    
+	}   
 }
 
 ?>

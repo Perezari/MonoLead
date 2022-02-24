@@ -26,13 +26,12 @@ class Activity extends Controller {
         );
         $_TASK->updateTask($arrayTaskHeader);
         
-
         $_TASK_LOG = $this->loadModel('TaskLogModel');
         $_TASK_LOG->addLog(array(
             "id" => $task_id,
             "user_id" => Session::r('USER_ID'),
             "user_name" => Session::r('USER_NAME'),
-        ), "adding activity to task");
+        ), "Adding activity");
 
         die();
     }
@@ -83,6 +82,13 @@ class Activity extends Controller {
                 $_TASK->updateTask($arrayTaskHeader);
             }
         }
+		
+		$_TASK_LOG = $this->loadModel('TaskLogModel');
+        $_TASK_LOG->addLog(array(
+            "id" => $_ACT_DATA_ONE['task_id'],
+            "user_id" => Session::r('USER_ID'),
+            "user_name" => Session::r('USER_NAME'),
+        ), "Edit activity");
 
         die();
     }
@@ -97,6 +103,13 @@ class Activity extends Controller {
         $_ACT_DATA_ONE = $_ACT->getActivity($id);
         $_IS_LAST_ACTIVITY = $_ACT->getLastActivityByTask($_ACT_DATA_ONE['task_id']);
        
+	    $_TASK_LOG = $this->loadModel('TaskLogModel');
+        $_TASK_LOG->addLog(array(
+            "id" => $_ACT_DATA_ONE['task_id'],
+            "user_id" => Session::r('USER_ID'),
+            "user_name" => Session::r('USER_NAME'),
+        ), "Delete activity");
+	   
         foreach ($_IS_LAST_ACTIVITY as $key => $value) {
             if($value['id'] == $id){
                 $_ACT->deleteActivity($id);

@@ -89,6 +89,13 @@ class Status extends Controller {
     );
 
     $_STATUS->addStatus($array);
+	
+	$_TASK_LOG = $this->loadModel('TaskLogModel');
+    $_TASK_LOG->addLog(array(
+            "id" => $_POST['record']['name'],
+            "user_id" => Session::r('USER_ID'),
+            "user_name" => Session::r('USER_NAME'),
+        ), "Add Status");
 
     die();
   }
@@ -117,12 +124,27 @@ class Status extends Controller {
 
     $_STATUS->saveStatus($array);
 
+	$_TASK_LOG = $this->loadModel('TaskLogModel');
+    $_TASK_LOG->addLog(array(
+            "id" => $_POST['record']['id'],
+            "user_id" => Session::r('USER_ID'),
+            "user_name" => Session::r('USER_NAME'),
+        ), "Edit Status");
+		
     die();
   }
 
   function delete_status()
   {
     $_STATUS = $this->loadModel('StatusModel');
+	
+	$_TASK_LOG = $this->loadModel('TaskLogModel');
+    $_TASK_LOG->addLog(array(
+            "id" => $_POST['id'],
+            "user_id" => Session::r('USER_ID'),
+            "user_name" => Session::r('USER_NAME'),
+        ), "Delete Status");
+		
     $_STATUS->deleteStatus($_POST['id']);
 
     die();

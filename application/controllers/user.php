@@ -89,6 +89,13 @@ class User extends Controller {
         );
 
         $_USER->addUser($array);
+		
+		$_TASK_LOG = $this->loadModel('TaskLogModel');
+        $_TASK_LOG->addLog(array(
+            "id" => $_POST['record']['fullname'],
+            "user_id" => Session::r('USER_ID'),
+            "user_name" => Session::r('USER_NAME'),
+        ), "Add user");
 
         die();
     }
@@ -137,6 +144,13 @@ class User extends Controller {
         );
 
         $_USER->saveUser($array);
+		
+		$_TASK_LOG = $this->loadModel('TaskLogModel');
+        $_TASK_LOG->addLog(array(
+            "id" => $_POST['record']['id'],
+            "user_id" => Session::r('USER_ID'),
+            "user_name" => Session::r('USER_NAME'),
+        ), "Edit user");
 
         die();
     }
@@ -144,6 +158,14 @@ class User extends Controller {
     function delete_user()
     {
         $_USER = $this->loadModel('UserModel');
+		
+		$_TASK_LOG = $this->loadModel('TaskLogModel');
+        $_TASK_LOG->addLog(array(
+            "id" => $_POST['id'],
+            "user_id" => Session::r('USER_ID'),
+            "user_name" => Session::r('USER_NAME'),
+        ), "Delete user");
+		
         $_USER->deleteUser($_POST['id']);
 
         die();
