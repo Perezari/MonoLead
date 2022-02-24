@@ -51,12 +51,12 @@ $(function () {
 			{ id: 'level-3', text: 'Tools', img: 'icon-folder', expanded: true, group: true,
 	          nodes: [ { id: 'level-3-1', text: 'Tools', img: 'icon-folder', count: 6,
 	                       nodes: [
-									<?php if(Handler::$_IS_ADMIN) echo "{ type: 'button', id: 'backup',  caption: 'Export Database', img: 'icon-dracula', hint: 'MySQL' },"; ?>
-									<?php if(Handler::$_IS_ADMIN) echo "{ type: 'button', id: 'createnewdb',  caption: 'Create New DB', img: 'icon-add', hint: 'Create New Database' },"; ?>																		
-									<?php if(Handler::$_IS_ADMIN) echo "{ type: 'button', id: 'changedb',  caption: 'Chnage DB', img: 'icon-reload', hint: 'Change Database' },"; ?>																		
+									<?php if(Handler::$_IS_ADMIN) echo "{ type: 'button', id: 'backup',  caption: 'Export Database', img: 'icon-autogenerate', hint: 'MySQL' },"; ?>
+									<?php if(Handler::$_IS_ADMIN) echo "{ type: 'button', id: 'createnewdb',  caption: 'Create New DB', img: 'icon-autogenerate', hint: 'Create New Database' },"; ?>																		
+									<?php if(Handler::$_IS_ADMIN) echo "{ type: 'button', id: 'changedb',  caption: 'Chnage DB', img: 'icon-autogenerate', hint: 'Change Database' },"; ?>																		
 									<?php if(Handler::$_IS_ADMIN) echo "{ type: 'button', id: 'fixdb',  caption: 'Fix DB', img: 'icon-autogenerate', hint: 'Fix Database' },"; ?>																		
-									<?php if(Handler::$_IS_ADMIN) echo "{ type: 'button', id: 'filemanager',  caption: 'File Manager', img: 'icon-filemanager', hint: 'File Manager' },"; ?>
-									{ type: 'button', id: 'blog',  caption: 'Blog', img: 'icon-help', hint: 'Our BlogS' },
+									//<?php if(Handler::$_IS_ADMIN) echo "{ type: 'button', id: 'filemanager',  caption: 'File Manager', img: 'icon-filemanager', hint: 'File Manager' },"; ?>
+									//{ type: 'button', id: 'blog',  caption: 'Blog', img: 'icon-help', hint: 'Our BlogS' },
 								]}
 	                 ]
 	        },

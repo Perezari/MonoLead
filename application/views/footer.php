@@ -17,7 +17,7 @@
 	$(function () {
 	    tools =  {
             items: [
-			    { type: 'button',  id: 'mainpanel', caption: 'Main Panel', img: 'icon-house' },
+			    { type: 'button',  id: 'mainpanel', caption: 'Main Panel', img: 'icon-programlocation' },
                 { type: 'button',  id: 'main', caption: 'Dashboard', img: 'icon-house' },
                 { type: 'break',  id: 'break0' },
                 { type: 'button',  id: 'taskboard', caption: 'Taskboard', img: 'icon-taskboard' },

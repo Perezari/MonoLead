@@ -211,7 +211,7 @@
 		    },	   
 	        columns: [                
 	            { field: 'id', style:'text-align:center', caption: 'ID', size: '30px', resizable: true, sortable: true, searchable: true },
-	            { field: 'name', style:'text-align:center', caption: 'stsatus name', size: '200px', resizable: true, sortable: true, searchable: true },
+	            { field: 'name', style:'text-align:center', caption: 'status name', size: '200px', resizable: true, sortable: true, searchable: true },
 	            { field: 'type', style:'text-align:center', caption: 'status type', size: '200px', resizable: true, sortable: true, searchable: true },
 	            { field: 'icon', style:'text-align:center',caption: 'Icon', size: '70px', resizable: true, sortable: true,
 	                render: function (record, index, column_index) {
